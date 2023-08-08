@@ -1,0 +1,82 @@
+.formuser-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #003;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 200ms ease;
+}
+
+.close-form{
+    transform: scale(0);
+}
+
+.formuser{
+    width: 100%;
+    max-width: 300px;
+    padding: 1.5em 1em 2.5em;
+    border-radius: 0.7em;
+    background-color: white;
+}
+
+.formuser_title{
+    text-align: center;
+    margin-bottom: 0.5em ;
+    font-weight: 500;
+}
+
+.formuser_close{
+position: absolute;
+font-size: 1.2rem;
+top: 1em;
+right: 1.5em;
+cursor: pointer;
+color: white;
+}
+
+.formuser_close:hover{
+    color: red;
+}
+
+.formuser_group{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.formuser_label{
+    font-size: 0.9rem;
+    font-weight: 300 ;
+    margin-left: 1em;
+}
+
+.formuser_input{
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+    border: 0.1em solid #aaa;
+}
+
+/* rem es relativo al elemento inicial html
+y em es realativo del font size del mismo elemento es decir no de la raiz es decir no del html */
+
+.formuser_btn{
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 400;
+    padding-top: 0.6em ;
+    padding-bottom: 0.6em ;
+    background-color: rgb(10, 110, 210);
+    color: white;
+    border-radius: 0.5em;
+    margin-top: 1em;
+}
+
+.formuser_btn:hover{
+    filter: brightness(1.2);
+}
+

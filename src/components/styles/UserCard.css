@@ -1,0 +1,63 @@
+.card{
+    width: 100%;
+    max-width: 300px;
+    padding: 1.5em 1em;
+    border-radius: 0.7em; 
+    box-shadow:0 0 0.5em #272626;
+}
+
+.card-name{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 0.2em 0 0.4em;
+}
+
+
+.card-list{
+    display: grid;
+    gap: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.2em;
+}
+
+.card-item-label{
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #311701;
+}
+.card-item-value{
+    padding-left: 1em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+}
+
+.card-footer{
+    display: flex;
+    justify-content: end;
+    gap: 0.7em;
+    padding-top: 0.9em;
+}
+
+.footer-delete{
+    background-color: red;
+    color: white;
+    border-radius: 0.3em;
+}
+.footer-update{
+    border-radius: 0.3em;
+    background-color: transparent;
+}
+
+.bx-trash-alt, .bx-edi-alt{
+    font-size: 1.5rem;
+    padding: 0.2em 0;
+}
